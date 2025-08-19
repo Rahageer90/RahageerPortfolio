@@ -12,7 +12,7 @@ export const ContactsSection = () => {
     emailjs
       .sendForm(
         "service_7x79gyq",      // Service ID
-        "template_ucdfc7w",     // Template ID
+        "template_ucdfd7w",     // Template ID
         formRef.current,
         "L5k_0Vh3KXOKKaVpS"     // Public Key
       )
