@@ -7,19 +7,22 @@ export const ContactsSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Directly using EmailJS service/template/public keys
     emailjs
       .sendForm(
         "service_7x79gyq",      // Service ID
-        "template_ucdfc7w",     //Template ID
+        "template_ucdfc7w",     // Template ID
         formRef.current,
-        "L5k_0Vh3KXOKKaVpS"     //Public Key
+        "L5k_0Vh3KXOKKaVpS"     // Public Key
       )
       .then(
         () => {
           alert("Message sent successfully!");
           e.target.reset();
         },
-        () => {
+        (error) => {
+          console.error("EmailJS error:", error);
           alert("Failed to send message. Please try again.");
         }
       );
@@ -70,25 +73,25 @@ export const ContactsSection = () => {
           {/* Right Column: Contact Form */}
           <div className="gradient-border p-8 card-hover flex items-start gap-4 opacity-0 animate-fade-in">
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-4 w-full">
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <input
                   type="text"
-                  name="firstName"
+                  name="first_name"
                   placeholder="Your First Name"
                   required
-                  className="w-1/2 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full sm:w-1/2 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                 />
                 <input
                   type="text"
-                  name="lastName"
+                  name="last_name"
                   placeholder="Your Last Name"
                   required
-                  className="w-1/2 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full sm:w-1/2 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
               <input
                 type="email"
-                name="email"
+                name="user_email"
                 placeholder="Your Email"
                 required
                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
