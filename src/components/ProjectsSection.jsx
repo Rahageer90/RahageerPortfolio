@@ -29,8 +29,8 @@ export const ProjectSection = () => {
         {
       title: "Diabetes Detector App – Python, Streamlit, XGBoost",
       description: `Built a machine learning web app predicting diabetes risk using patient data; performed EDA, feature engineering, and trained the best model, XGBClassifier pipeline achieving ~74% test accuracy. Designed a responsive, mobile-friendly UI and deployed publicly via Streamlit Cloud.`,
-      github: "github.com/Rahageer90/Diabetes_Prediction",
-      live: "diaapplication.streamlit.app",
+      github: "https://github.com/Rahageer90/Diabetes_Prediction",
+      live: "https://diaapplication.streamlit.app/",
     },
   ];
 
