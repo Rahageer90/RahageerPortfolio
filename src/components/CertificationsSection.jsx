@@ -2,14 +2,9 @@ import { Award } from "lucide-react";
 
 export const CertificationsSection = () => {
   const certifications = [
-    { title: "Data Analysis with Python", issuer: "IBM" },
-    { title: "Data Science Orientation", issuer: "IBM" },
-    { title: "Databases and SQL for Data Science with Python", issuer: "IBM" },
-    { title: "Python Project for Data Science", issuer: "IBM" },
-    { title: "Data Science Methodology", issuer: "IBM" },
-    { title: "Python App Development Masterclass App Development Bootcamp", issuer: "Udemy" },
-    { title: "Python for Data Science, AI & Development", issuer: "IBM" },
-    { title: "Tools for Data Science", issuer: "IBM" },
+    { title: "Data Science Professional Certificate", issuer: "IBM" },
+    { title: "Machine Learning with Python", issuer: "IBM" },
+    { title: "Python App Development Masterclass", issuer: "Udemy" },
   ];
 
   return (

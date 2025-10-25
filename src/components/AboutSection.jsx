@@ -35,17 +35,23 @@ export const AboutSection = () => {
                     {/* Left Column */}
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold"> 
-                            Passionate Software Developer and Data Science Enthusiast
+                            Passionate Software Developer and Data Scientist
                         </h3>
                         <p className="text-muted-foreground">
-                            I’m an aspiring Software Engineer and Data Scientist with a strong foundation in Python, PHP, full-stack development, and machine learning. Over the past few years, I’ve built and deployed projects ranging from secure, cloud-based web applications to intelligent ML pipelines for tasks like intrusion detection and explainable AI. My undergraduate thesis explored hybrid ensemble models with LIME interpretability, achieving over 97% accuracy.
+                            Results-driven Data Scientist and Software Engineer experienced in developing, deploying, and optimizing 
+                            machine learning pipelines using Python, Scikit-learn, and LIME for explainable model interpretation. 
+                            Skilled in data preprocessing, feature engineering, model evaluation, and integrating predictive models into scalable software systems. 
+                            Proficient in system design, MVC architecture, SDLC, SQL database management, and RESTful API 
+                            integration, with proven ability to design robust backend logic and responsive frontends. Experienced in 
+                            cloud deployment using Render and Netlify, delivering end-to-end, data-driven applications that combine 
+                            analytical precision with engineering excellence.racy.
                             <br /><br />
                             I enjoy learning new technologies, debugging complex problems, and building solutions that balance performance, usability, and scalability. Beyond coding, I actively take part in volunteer initiatives, as I believe in using my skills and time to create positive social impact.   
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">Get In Touch</a>
-                            <a href="/assets/Rahageer_Saadman_Islam_Updated_Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="/assets/Rahageer_Oct2025_Portfolio.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>
                         </div>

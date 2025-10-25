@@ -17,7 +17,6 @@ export const SkillsSection = () => {
       category: "Frameworks & Tools",
       icon: Layers,
       skills: [
-        { name: "Django", rating: 5 },
         { name: "Laravel", rating: 4 },
         { name: "PyQt5", rating: 4 },
         { name: "MVC", rating: 5 },
