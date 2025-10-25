@@ -32,6 +32,16 @@ export const ProjectSection = () => {
       github: "https://github.com/Rahageer90/Diabetes_Prediction",
       live: "https://diaapplication.streamlit.app/",
     },
+    {
+      title: "SpaceX Falcon 9 First Stage Landing Prediction – Python, Scikit-learn, Plotly Dash, SQLSS",
+      description: `Developed a machine learning model to predict the successful landing of SpaceX’s Falcon 9 first stage
+      with 83.33% accuracy using Logistic Regression, SVM, and Decision Tree. Performed SQL-based data wrangling and EDA to identify key 
+      factors such as payload mass, launch site, and orbit type influencing landing outcomes.
+      Built an interactive Plotly Dash dashboard and.`,
+      github: "https://github.com/Rahageer90/Coursera_Applied_DataScience_Capstone",
+      live: "",
+    },
+
   ];
 
   return (
