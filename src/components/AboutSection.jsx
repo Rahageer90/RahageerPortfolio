@@ -1,25 +1,25 @@
-import { Layers, Cpu, Monitor, Cloud } from "lucide-react"
+import { Bot, Cpu, Network, Cloud } from "lucide-react"
 
 export const AboutSection = () => {
     const points = [
         {
-            title: "Web Development",
-            desc: "Build secure, responsive, and full-stack web applications using PHP, Laravel, Django, MySQL, and Tailwind CSS.",
-            icon: Layers,
+            title: "Agentic AI & LLMs",
+            desc: "Build autonomous AI agent systems using LangChain, LangGraph, and Model Context Protocol (MCP) with ReAct reasoning loops and multi-step task execution.",
+            icon: Bot,
         },
         {
-            title: "Machine Learning & AI",
-            desc: "Develop ML pipelines, perform data preprocessing, feature engineering, and implement hybrid ensemble models with interpretability using LIME.",
+            title: "RAG & Semantic Search",
+            desc: "Engineer Retrieval-Augmented Generation pipelines with vector embeddings, neural search, and tier-wise embedding support for context-aware enterprise AI agents.",
             icon: Cpu,
         },
         {
-            title: "Desktop Application Development",
-            desc: "Create interactive desktop apps with Python and PyQt5, featuring responsive UI, error handling, and event-driven architecture.",
-            icon: Monitor,
+            title: "ML Pipelines & NLP",
+            desc: "Design end-to-end ML pipelines covering data preprocessing, feature engineering, ensemble models, Explainable AI (XAI/SHAP), and computer vision with Scikit-learn.",
+            icon: Network,
         },
         {
-            title: "Cloud Deployment & API Integration",
-            desc: "Deploy web applications on cloud platforms like Render, integrate OAuth 2.0 authentication, and work with RESTful APIs.",
+            title: "MLOps & Cloud Infrastructure",
+            desc: "Deploy scalable FastAPI microservices with Redis caching, PostgreSQL, and AWS ECS/S3/ElastiCache. Integrate Google Gemini API and OpenAI-compatible LLM endpoints.",
             icon: Cloud,
         },
     ]
@@ -34,24 +34,23 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                     {/* Left Column */}
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold"> 
-                            Passionate Software Developer and Data Scientist
+                        <h3 className="text-2xl font-semibold">
+                            AI / ML Engineer — Agentic AI · LangChain · RAG · MCP · MLOps
                         </h3>
                         <p className="text-muted-foreground">
-                            Results-driven Data Scientist and Software Engineer experienced in developing, deploying, and optimizing 
-                            machine learning pipelines using Python, Scikit-learn, and LIME for explainable model interpretation. 
-                            Skilled in data preprocessing, feature engineering, model evaluation, and integrating predictive models into scalable software systems. 
-                            Proficient in system design, MVC architecture, SDLC, SQL database management, and RESTful API 
-                            integration, with proven ability to design robust backend logic and responsive frontends. Experienced in 
-                            cloud deployment using Render and Netlify, delivering end-to-end, data-driven applications that combine 
-                            analytical precision with engineering excellence.racy.
+                            AI/ML Engineer with hands-on production experience building autonomous AI agent systems,
+                            Retrieval-Augmented Generation (RAG) pipelines, and scalable MLOps infrastructure.
+                            Deep expertise in large language models (LLMs), neural search, vector embeddings, NLP,
+                            and computer vision — backed by end-to-end project delivery from model development to
+                            REST API deployment on AWS.
                             <br /><br />
-                            I enjoy learning new technologies, debugging complex problems, and building solutions that balance performance, usability, and scalability. Beyond coding, I actively take part in volunteer initiatives, as I believe in using my skills and time to create positive social impact.   
+                            I enjoy solving complex problems at the intersection of AI and engineering, building intelligent
+                            systems that are reliable, production-ready, and impactful at scale.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">Get In Touch</a>
-                            <a href="/assets/Rahageer_Oct2025_Portfolio.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="/assets/Rahageer_Saadman_Islam_CV_2026.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>
                         </div>

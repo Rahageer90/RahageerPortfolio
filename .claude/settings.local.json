@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:\\\\Users\\\\rahag\\\\OneDrive\\\\Desktop\\\\RahageerPortfolio\\\\public\\\\assets\"\" 2>/dev/null || echo \"No assets dir \")"
+    ]
+  }
+}

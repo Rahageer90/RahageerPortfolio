@@ -3,45 +3,29 @@ import { Github, ExternalLink } from "lucide-react";
 export const ProjectSection = () => {
   const projects = [
     {
-      title: "Undergraduate Thesis: Hybrid Learning-Based Intrusion Detection",
-      description: `Built an end-to-end ML pipeline with data cleaning, feature scaling, and leakage prevention. Achieved >97% accuracy and 0.998 ROC AUC using hybrid ensemble models with LIME explainability.`,
-      github: "",
+      title: "Fact-Check Agent — Autonomous Multi-Source Verification System",
+      description: `Architected a full-stack agentic AI system for autonomous claim verification using LangChain ReAct agents and Google Gemini API. Engineered 6+ MCP-based tools (neural search, news aggregation via NewsAPI, web search via Serper API, structured claim validation) with fallback mechanisms. Features multi-step reasoning: query decomposition, evidence retrieval, cross-source reconciliation, and confidence-scored verdict generation.`,
+      github: "https://github.com/Rahageer90/fact_check_agent",
       live: "",
     },
     {
-      title: "NotesApp with To-Do List",
-      description: `Integrated Google OAuth 2.0 authentication into a cloud-deployed PHP app (Render & Aiven MySQL). Gained experience in secure authentication, API integration, cloud deployment, and debugging production issues.`,
-      github: "https://github.com/Rahageer90/Notesapp-in-PHP",
-      live: "https://notesapp-in-php.onrender.com/",
-    },
-    {
-      title: "Calculator App – Python, PyQt5",
-      description: `Engineered a calculator application using responsive grid-based layouts, custom UI styling, and event-driven architecture. Integrated error handling for robust performance and smooth user experience.`,
-      github: "https://github.com/Rahageer90/CalcAppPython",
+      title: "Explainable AI — Integrated Network Intrusion Detection System",
+      description: `Developed ensemble ML models (classification + anomaly detection) to identify malicious network traffic patterns across multiple attack categories. Implemented XAI techniques — SHAP feature importance and model interpretability — ensuring transparent decision-making for security applications. Delivered complete ML pipeline: data preprocessing, feature engineering, training, cross-validation, and hyperparameter tuning.`,
+      github: "https://github.com/Rahageer90/ML_EXAi_-Integrated_IDS_Project",
       live: "",
     },
     {
-      title: "E-commerce Bookstore App – PHP, MySQL, Tailwind CSS",
-      description: `Developed complete e-commerce platform with user registration, product catalog, wishlist and shopping cart functionality. Implemented secure user authentication, smart cart system, category filtering, and optimized database operations.`,
-      github: "https://github.com/Rahageer90/ecommerce_app",
-      live: "",
-    },
-        {
-      title: "Diabetes Detector App – Python, Streamlit, XGBoost",
-      description: `Built a machine learning web app predicting diabetes risk using patient data; performed EDA, feature engineering, and trained the best model, XGBClassifier pipeline achieving ~74% test accuracy. Designed a responsive, mobile-friendly UI and deployed publicly via Streamlit Cloud.`,
+      title: "Healthcare ML — Diabetes Risk Prediction System",
+      description: `Engineered a supervised ML model for diabetes risk assessment with full pipeline covering data cleaning, feature engineering, model selection, and statistical validation. Applied cross-validation and hyperparameter tuning to maximize generalizability and reliability of predictions on clinical datasets. Deployed publicly via Streamlit Cloud.`,
       github: "https://github.com/Rahageer90/Diabetes_Prediction",
       live: "https://diaapplication.streamlit.app/",
     },
     {
-      title: "SpaceX Falcon 9 First Stage Landing Prediction – Python, Scikit-learn, Plotly Dash, SQLSS",
-      description: `Developed a machine learning model to predict the successful landing of SpaceX’s Falcon 9 first stage
-      with 83.33% accuracy using Logistic Regression, SVM, and Decision Tree. Performed SQL-based data wrangling and EDA to identify key 
-      factors such as payload mass, launch site, and orbit type influencing landing outcomes.
-      Built an interactive Plotly Dash dashboard and.`,
+      title: "SpaceX Falcon 9 Landing Prediction — Applied Data Science Capstone",
+      description: `Developed a machine learning model to predict successful landing of SpaceX Falcon 9’s first stage with 83.33% accuracy using Logistic Regression, SVM, and Decision Tree. Performed SQL-based data wrangling and EDA to identify key factors (payload mass, launch site, orbit type). Built an interactive Plotly Dash dashboard for exploratory analysis.`,
       github: "https://github.com/Rahageer90/Coursera_Applied_DataScience_Capstone",
       live: "",
     },
-
   ];
 
   return (

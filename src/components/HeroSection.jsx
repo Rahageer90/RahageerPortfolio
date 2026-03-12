@@ -22,8 +22,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-            A passionate Software Engineer and Data Science enthusiast who loves
-            turning ideas into scalable software and data-driven solutions
+            AI / ML Engineer — building autonomous AI agents, RAG pipelines, and scalable MLOps systems with LangChain, MCP, and FastAPI
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

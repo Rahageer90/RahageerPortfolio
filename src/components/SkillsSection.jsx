@@ -3,44 +3,48 @@ import { Terminal, Layers, Database, Cpu } from "lucide-react";
 export const SkillsSection = () => {
   const skillsData = [
     {
-      category: "Languages",
-      icon: Terminal,
-      skills: [
-        { name: "Python", rating: 5 },
-        { name: "PHP", rating: 4 },
-        { name: "JavaScript", rating: 4 },
-        { name: "HTML", rating: 5 },
-        { name: "Tailwind CSS", rating: 5 },
-      ],
-    },
-    {
-      category: "Frameworks & Tools",
-      icon: Layers,
-      skills: [
-        { name: "Laravel", rating: 4 },
-        { name: "PyQt5", rating: 4 },
-        { name: "MVC", rating: 5 },
-        { name: "Pandas", rating: 5 },
-        { name: "Matplotlib", rating: 4 },
-        { name: "Git/GitHub", rating: 5 },
-      ],
-    },
-    {
-      category: "Databases",
-      icon: Database,
-      skills: [{ name: "MySQL", rating: 5 }],
-    },
-    {
-      category: "Machine Learning & Other Skills",
+      category: "AI / ML Core",
       icon: Cpu,
       skills: [
-        { name: "Data Preprocessing", rating: 5 },
-        { name: "Supervised & Unsupervised Learning", rating: 5 },
-        { name: "Data Visualization", rating: 4 },
-        { name: "Explainable AI (LIME)", rating: 5 },
-        { name: "OOP & DSA", rating: 5 },
-        { name: "RESTful APIs", rating: 4 },
-        { name: "Responsive UI Design", rating: 5 },
+        { name: "LangChain & LangGraph", rating: 5 },
+        { name: "Model Context Protocol (MCP)", rating: 5 },
+        { name: "RAG & Vector Embeddings", rating: 5 },
+        { name: "LLMs & Generative AI", rating: 5 },
+        { name: "Computer Vision", rating: 4 },
+        { name: "Explainable AI (XAI / SHAP)", rating: 4 },
+      ],
+    },
+    {
+      category: "ML Libraries & APIs",
+      icon: Layers,
+      skills: [
+        { name: "Scikit-learn", rating: 5 },
+        { name: "Pandas & NumPy", rating: 5 },
+        { name: "Google Gemini API", rating: 5 },
+        { name: "Serper / Tavily / NewsAPI", rating: 4 },
+        { name: "FastAPI & REST API", rating: 5 },
+        { name: "Git / GitHub", rating: 5 },
+      ],
+    },
+    {
+      category: "Databases & Infrastructure",
+      icon: Database,
+      skills: [
+        { name: "PostgreSQL", rating: 4 },
+        { name: "Redis", rating: 4 },
+        { name: "Vector Databases", rating: 4 },
+      ],
+    },
+    {
+      category: "MLOps & Cloud",
+      icon: Terminal,
+      skills: [
+        { name: "Python (98.5%)", rating: 5 },
+        { name: "Docker & Kubernetes", rating: 4 },
+        { name: "AWS (ECS, S3, ElastiCache, RDS)", rating: 4 },
+        { name: "CI/CD for ML", rating: 4 },
+        { name: "Semantic Search", rating: 5 },
+        { name: "NLP & Anomaly Detection", rating: 4 },
       ],
     },
   ];
