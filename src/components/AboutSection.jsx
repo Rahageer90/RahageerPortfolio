@@ -4,22 +4,22 @@ export const AboutSection = () => {
     const points = [
         {
             title: "Agentic AI & LLMs",
-            desc: "Build autonomous AI agent systems using LangChain, LangGraph, and Model Context Protocol (MCP) with ReAct reasoning loops and multi-step task execution.",
+            desc: "Architect autonomous agent systems using LangChain, LangGraph, and Model Context Protocol (MCP). Shipped 11+ production-ready tools (e.g., neural search, verification, and computer vision) using ReAct reasoning loops.",
             icon: Bot,
         },
         {
             title: "RAG & Semantic Search",
-            desc: "Engineer Retrieval-Augmented Generation pipelines with vector embeddings, neural search, and tier-wise embedding support for context-aware enterprise AI agents.",
+            desc: "Engineer Retrieval-Augmented Generation pipelines with vector embeddings, multi-step evidence reconciliation, and robust fallback data retrieval mechanisms for enterprise verification.",
             icon: Cpu,
         },
         {
-            title: "ML Pipelines & NLP",
-            desc: "Design end-to-end ML pipelines covering data preprocessing, feature engineering, ensemble models, Explainable AI (XAI/SHAP), and computer vision with Scikit-learn.",
+            title: "ML Pipelines & Interpretability",
+            desc: "Develop ensemble ML models (classification & anomaly detection) with Explainable AI (XAI / LIME-driven) interpretability to secure network traffic and validate clinical datasets.",
             icon: Network,
         },
         {
-            title: "MLOps & Cloud Infrastructure",
-            desc: "Deploy scalable FastAPI microservices with Redis caching, PostgreSQL, and AWS ECS/S3/ElastiCache. Integrate Google Gemini API and OpenAI-compatible LLM endpoints.",
+            title: "MLOps & Analytics",
+            desc: "Deploy FastAPI REST endpoints with Redis caching and AWS infrastructure. Engineer AIops metrics to monitor agent performance, tool call volumes, and contextual skill gains.",
             icon: Cloud,
         },
     ]
@@ -38,14 +38,13 @@ export const AboutSection = () => {
                             AI / ML Engineer — Agentic AI · LangChain · RAG · MCP · MLOps
                         </h3>
                         <p className="text-muted-foreground">
-                            AI/ML Engineer with hands-on production experience building autonomous AI agent systems,
-                            Retrieval-Augmented Generation (RAG) pipelines, and scalable MLOps infrastructure.
-                            Deep expertise in large language models (LLMs), neural search, vector embeddings, NLP,
-                            and computer vision — backed by end-to-end project delivery from model development to
-                            REST API deployment on AWS.
+                            I am a hands-on AI/ML Engineer specializing in building autonomous AI agents, production-grade 
+                            Retrieval-Augmented Generation (RAG) pipelines, and robust MLOps infrastructure. I design and 
+                            deploy enterprise-grade Agentic systems that solve complex workflows—from multi-tool marketing 
+                            automations and document/presentation generators to security intrusion detection networks.
                             <br /><br />
-                            I enjoy solving complex problems at the intersection of AI and engineering, building intelligent
-                            systems that are reliable, production-ready, and impactful at scale.
+                            I enjoy bridging the gap between raw models and scalable software engineering, deploying robust 
+                            FastAPI microservices, vector databases, and real-time monitoring structures on AWS and Docker environments.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
